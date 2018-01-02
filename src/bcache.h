@@ -177,6 +177,7 @@
 
 #define pr_fmt(fmt) "bcache: %s() " fmt "\n", __func__
 
+/*
 #include <linux/bio.h>
 #include <linux/blktrace_api.h>
 #include <linux/kobject.h>
@@ -186,9 +187,11 @@
 #include <linux/rwsem.h>
 #include <linux/types.h>
 #include <linux/workqueue.h>
+*/
+#include <linux/types.h>
 
 #include "util.h"
-#include "closure.h"
+//#include "closure.h"
 
 struct bucket {
 	atomic_t	pin;

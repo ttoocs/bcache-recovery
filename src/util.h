@@ -4,10 +4,10 @@
 
 #include <linux/errno.h>
 #include <linux/kernel.h>
-#include <linux/llist.h>
-#include <linux/ratelimit.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
+//#include <linux/llist.h>
+//#include <linux/ratelimit.h>
+//#include <linux/vmalloc.h>
+//#include <linux/workqueue.h>
 
 #include "closure.h"
 
@@ -15,7 +15,7 @@
 
 struct closure;
 
-#include <trace/events/bcache.h>
+//#include <trace/events/bcache.h>
 
 #ifdef CONFIG_BCACHE_EDEBUG
 
@@ -572,6 +572,8 @@ static inline unsigned fract_exp_two(unsigned x, unsigned fract_bits)
 	return x;
 }
 
+//All kerenel-level stuff with scheduling.
+/* 
 #define bio_end(bio)	((bio)->bi_sector + bio_sectors(bio))
 
 void bch_bio_map(struct bio *bio, void *base);
@@ -591,5 +593,5 @@ do {									\
 
 uint64_t bch_crc64_update(uint64_t, const void *, size_t);
 uint64_t bch_crc64(const void *, size_t);
-
+*/
 #endif /* _BCACHE_UTIL_H */

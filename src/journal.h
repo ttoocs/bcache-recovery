@@ -1,3 +1,4 @@
+#define _BCACHE_JOURNAL_H //DISABLE
 #ifndef _BCACHE_JOURNAL_H
 #define _BCACHE_JOURNAL_H
 

@@ -1,9 +1,10 @@
+#define _LINUX_CLOSURE_H //Entierly disable this file.
 #ifndef _LINUX_CLOSURE_H
 #define _LINUX_CLOSURE_H
 
-#include <linux/llist.h>
+//#include <linux/llist.h>
 #include <linux/sched.h>
-#include <linux/workqueue.h>
+//#include <linux/workqueue.h>
 
 /*
  * Closure is perhaps the most overused and abused term in computer science, but

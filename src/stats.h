@@ -1,4 +1,5 @@
-#ifndef _BCACHE_STATS_H_
+#define _BCACHE_STATS_H_
+#ifndef _BCACHE_STATS_H_ //Disable..
 #define _BCACHE_STATS_H_
 
 struct cache_stat_collector {
