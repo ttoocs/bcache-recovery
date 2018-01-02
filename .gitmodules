@@ -1,0 +1,3 @@
+[submodule "bcache-tools"]
+	path = bcache-tools
+	url = https://evilpiepirate.org/git/bcache-tools.git
