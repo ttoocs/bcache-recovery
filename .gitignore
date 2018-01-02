@@ -1,2 +1,5 @@
 bin/*
 build/*
+ncscope.out
+tags
+cscope.out
